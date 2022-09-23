@@ -1,0 +1,4 @@
+precomputed
+(37500, 5)
+Alarm => [Alarm | Burglary | Earthquake | JohnCalls | MaryCalls]
+¬Alarm => [Alarm | Burglary | Earthquake | JohnCalls | MaryCalls]

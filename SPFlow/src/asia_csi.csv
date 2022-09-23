@@ -1,0 +1,26 @@
+A,C,MP,MR,NI,Valid
+((either == 1)&~(asia == 1))|~(either == 1),"('bronc', 'smoke')",1.0,1.0,4545,True
+((either == 1)&~(asia == 1))|~(either == 1),"('bronc', 'xray')",1.0,1.0,4545,True
+((either == 1)&~(asia == 1))|~(either == 1),"('bronc', 'lung')",1.0,1.0,4545,True
+((either == 1)&~(asia == 1))|~(either == 1),"('dysp', 'smoke')",1.0,1.0,4545,True
+((either == 1)&~(asia == 1))|~(either == 1),"('dysp', 'xray')",1.0,1.0,4545,True
+((either == 1)&~(asia == 1))|~(either == 1),"('dysp', 'lung')",1.0,1.0,4545,True
+((either == 1)&~(asia == 1))|~(either == 1),"('dysp', 'tub')",1.0,1.0,4545,True
+((either == 1)&~(asia == 1))|~(either == 1),"('bronc', 'tub')",1.0,1.0,4545,True
+(((either == 1)&~(asia == 1))|~(either == 1))&~(lung == 1),"('smoke', 'xray')",1.0,1.0,3394,True
+(((either == 1)&~(asia == 1))|~(either == 1))&~(lung == 1),"('tub', 'xray')",1.0,1.0,3394,True
+(((either == 1)&~(asia == 1))|~(either == 1))&~(lung == 1),"('smoke', 'tub')",1.0,1.0,3394,True
+(either == 1)&(asia == 1),"('lung', 'tub')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('bronc', 'lung')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('dysp', 'lung')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('dysp', 'xray')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('tub', 'xray')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('smoke', 'tub')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('dysp', 'tub')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('bronc', 'tub')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('smoke', 'xray')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('bronc', 'xray')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('lung', 'smoke')",1.0,1.0,55455,True
+(either == 1)&(asia == 1),"('lung', 'xray')",1.0,1.0,55455,True
+((either == 1)&(asia == 1))&(bronc == 1),"('dysp', 'smoke')",1.0,1.0,30808,True
+((either == 1)&(asia == 1))&~(bronc == 1),"('dysp', 'smoke')",1.0,1.0,24647,True

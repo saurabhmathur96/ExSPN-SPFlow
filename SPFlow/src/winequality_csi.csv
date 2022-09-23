@@ -1,0 +1,5 @@
+Antecedent,Consequent,Score,Support
+$((chlorides \leq 0.0585))$ ," (fixed_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,alcohol,quality), (volatile_acidity), (sulphates) ", 0.94 , 4588
+$((chlorides > 0.0585)) \land ((total_sulfur_dioxide \leq 72.5000))$ ," (fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,density,pH,sulphates,alcohol,quality), (free_sulfur_dioxide,total_sulfur_dioxide) ", 0.84 , 1206
+$((chlorides \leq 0.0585)) \land ((density > 0.9948))$ ," (fixed_acidity,citric_acid,residual_sugar,density,pH,alcohol), (chlorides), (free_sulfur_dioxide,total_sulfur_dioxide), (quality) ", 0.78 , 1837
+$((chlorides \leq 0.0585)) \land ((density \leq 0.9948)) \land ((residual_sugar > 2.4500)) \land ((citric_acid \leq 0.3850))$ ," (fixed_acidity,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,alcohol,quality), (citric_acid) ", 0.80 , 1026

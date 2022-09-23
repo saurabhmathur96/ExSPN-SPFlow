@@ -1,0 +1,13 @@
+A,C,MP,MR,NI,Valid
+(Cancer == 1),"('Pollution', 'Smoker')",1.0,1.0,27892,True
+(Cancer == 1),"('Pollution', 'Xray')",1.0,1.0,27892,True
+(Cancer == 1),"('Dyspnoea', 'Smoker')",1.0,1.0,27892,True
+(Cancer == 1),"('Dyspnoea', 'Xray')",1.0,1.0,27892,True
+(Cancer == 1),"('Smoker', 'Xray')",1.0,1.0,27892,True
+(Cancer == 1),"('Dyspnoea', 'Pollution')",1.0,1.0,27892,True
+~(Cancer == 1),"('Pollution', 'Smoker')",1.0,1.0,9608,True
+~(Cancer == 1),"('Pollution', 'Xray')",1.0,1.0,9608,True
+~(Cancer == 1),"('Dyspnoea', 'Smoker')",1.0,1.0,9608,True
+~(Cancer == 1),"('Dyspnoea', 'Xray')",1.0,1.0,9608,True
+~(Cancer == 1),"('Smoker', 'Xray')",1.0,1.0,9608,True
+~(Cancer == 1),"('Dyspnoea', 'Pollution')",1.0,1.0,9608,True

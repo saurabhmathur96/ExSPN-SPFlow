@@ -1,0 +1,31 @@
+A,C,support
+(JohnCalls & ~Burglary & MaryCalls),"('Alarm', 'Earthquake')",5101
+(JohnCalls & ~Burglary & ~MaryCalls),"('Alarm', 'Earthquake')",1168
+(~JohnCalls & ~Burglary & MaryCalls),"('Alarm', 'Earthquake')",7279
+(~JohnCalls & ~Burglary & ~MaryCalls),"('Alarm', 'Earthquake')",6464
+(Alarm & Earthquake),"('Burglary', 'JohnCalls')",23105
+(Alarm & Earthquake),"('Burglary', 'MaryCalls')",23105
+(Alarm & ~Earthquake),"('Burglary', 'JohnCalls')",8160
+(Alarm & ~Earthquake),"('Burglary', 'MaryCalls')",8160
+(~Alarm & Earthquake),"('Burglary', 'JohnCalls')",11910
+(~Alarm & Earthquake),"('Burglary', 'MaryCalls')",11910
+(~Alarm & ~Earthquake),"('Burglary', 'JohnCalls')",6825
+(~Alarm & ~Earthquake),"('Burglary', 'MaryCalls')",6825
+(Alarm & Burglary),"('Earthquake', 'JohnCalls')",25255
+(Alarm & Burglary),"('Earthquake', 'MaryCalls')",25255
+(Alarm & ~Burglary),"('Earthquake', 'JohnCalls')",6010
+(Alarm & ~Burglary),"('Earthquake', 'MaryCalls')",6010
+(~Alarm & Burglary),"('Earthquake', 'JohnCalls')",4733
+(~Alarm & Burglary),"('Earthquake', 'MaryCalls')",4733
+(~Alarm & ~Burglary),"('Earthquake', 'JohnCalls')",14002
+(~Alarm & ~Burglary),"('Earthquake', 'MaryCalls')",14002
+(Alarm),"('Burglary', 'JohnCalls')",31265
+(Alarm),"('Earthquake', 'JohnCalls')",31265
+(Alarm),"('JohnCalls', 'MaryCalls')",31265
+(~Alarm),"('Burglary', 'JohnCalls')",18735
+(~Alarm),"('Earthquake', 'JohnCalls')",18735
+(~Alarm),"('JohnCalls', 'MaryCalls')",18735
+(Alarm),"('Burglary', 'MaryCalls')",31265
+(Alarm),"('Earthquake', 'MaryCalls')",31265
+(~Alarm),"('Burglary', 'MaryCalls')",18735
+(~Alarm),"('Earthquake', 'MaryCalls')",18735

@@ -1,0 +1,11 @@
+The 2^16 contingency table from the NLTCS. 
+
+This data set is an extract from the National Long Term Care Survey (NLTCS). 16 binary variables in the extract are functional disability measures: 6 activities of daily living and 10 instrumental activities of daily living, pooled over 1982, 1984, 1989, and 1994 waves of the survey. 
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Antecedent,Consequent,Score,Support
+$(\neg ny)$ ," (ct), (dc), (de), (dengl), (fraspm), (gl), (ia), (il), (in), (lb), (mb), (me), (mi), (mn), (nb), (nd), (nf), (nh), (nj), (ns), (nu), (oh), (on), (pe), (qc), (ri), (vt), (wi), (wv), (ab,ak,al,ar,az,bc,ca,co,fl,ga,id,ks,ky,la,mo,ms,mt,nc,ne,nm,nt,nv,ok,or,sc,sd,sk,tn,tx,ut,va,wa,wy,yt), (hi), (ma), (md), (ny), (pa), (pr,vi) ", 0.99 , 25063
+$(ny) \land (pa \land ny)$ ," (ny), (pa), (ab,ak,al,ar,az,bc,ca,co,ct,dc,de,dengl,fl,fraspm,ga,hi,ia,id,il,in,ks,ky,la,lb,ma,mb,md,me,mi,mn,mo,ms,mt,nb,nc,nd,ne,nf,nh,nj,nm,ns,nt,nu,nv,oh,ok,on,or,pe,pr,qc,ri,sc,sd,sk,tn,tx,ut,va,vi,vt,wa,wi,wv,wy,yt), (gl) ", 0.57 , 4607
+$(\neg ny) \land (\neg fl)$ ," (ga), (ky), (la), (ms), (nc), (sc), (tn), (va), (ab,ak,az,bc,ca,co,id,ks,mt,ne,nm,nt,nv,ok,or,sd,sk,tx,ut,wa,wy,yt), (al), (ar), (fl), (mo) ", 0.99 , 19943
+$(\neg ny) \land (fl)$ ," (ab), (nt), (sk), (yt), (ak,al,ar,az,bc,ca,co,fl,ga,id,ks,ky,la,mo,ms,mt,nc,ne,nm,nv,ok,or,sc,sd,tn,tx,ut,va,wa,wy) ", 0.68 , 5120
+$(\neg ny) \land (\neg pr)$ ," (pr), (vi) ", 0.99 , 21119
+$(\neg ny) \land (pr)$ ," (pr), (vi) ", 0.99 , 3944
+$(ny) \land (\neg pa) \lor (pa \land \neg ny) \land (\neg ab)$ ," (dengl), (gl), (nu), (ab,ak,al,ar,az,bc,ca,co,dc,de,fl,fraspm,ga,hi,ia,id,il,in,ks,ky,la,lb,mb,md,mi,mn,mo,ms,mt,nb,nc,nd,ne,nf,nj,nm,ns,nt,nv,oh,ok,or,pa,pe,pr,sc,sd,sk,tn,tx,ut,va,vi,wa,wi,wv,wy,yt), (ct,ma,me,nh,ri,vt), (ny), (on), (qc) ", 0.57 , 2705
+$(ny) \land (\neg pa) \lor (pa \land \neg ny) \land (ab)$ ," (pr), (vi), (ab,ak,al,ar,az,bc,ca,co,ct,de,dengl,fl,fraspm,ga,gl,ia,id,il,in,ks,ky,la,lb,ma,mb,md,me,mi,mn,mo,ms,mt,nb,nc,nd,ne,nf,nh,nj,nm,ns,nt,nu,nv,ny,oh,ok,on,or,pe,qc,ri,sc,sd,sk,tn,tx,ut,va,vt,wa,wi,wv,wy,yt), (dc), (hi), (pa) ", 0.30 , 2406
+$(ny) \land (pa \land ny) \land (\neg nt)$ ," (dengl), (nt), (nu), (yt), (ab,ak,al,ar,az,bc,ca,co,ct,dc,de,fl,fraspm,ga,hi,ia,id,il,in,ks,ky,la,lb,ma,mb,md,me,mi,mn,mo,ms,mt,nb,nc,nd,ne,nf,nh,nj,nm,ns,nv,oh,ok,on,or,pe,pr,qc,ri,sc,sd,sk,tn,tx,ut,va,vi,vt,wa,wi,wv,wy) ", 0.57 , 3571
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc)$ ," (ab), (bc), (id), (ks), (mt), (ne), (nt), (ok), (sd), (sk), (yt), (ak), (az,co,nm,nv,tx,ut,wy), (ca), (or,wa) ", 0.99 , 16196
+$(\neg ny) \land (fl) \land (\neg ga \land \neg fl) \lor (ga)$ ," (ak), (id), (al,ar,az,bc,ca,co,fl,ga,ks,la,mo,ms,nc,nm,nv,ok,or,sc,tx,ut,va,wa), (ky,tn), (mt,ne,sd,wy) ", 0.55 , 3528
+$(ny) \land (\neg pa) \lor (pa \land \neg ny) \land (\neg ab) \land (\neg pr \land \neg nv)$ ," (id), (lb), (mt), (nt), (nv), (sk), (wy), (yt), (ab,ak,fraspm,mb,nb,nf,ns,pe,pr,vi), (al,ar,az,co,dc,de,fl,ga,ia,il,in,ks,ky,la,md,mi,mn,mo,ms,nc,nd,ne,nj,nm,oh,ok,pa,sc,sd,tn,tx,va,wi,wv), (bc,ca,hi,or,wa), (ut) ", 0.57 , 2307
+$(ny) \land (\neg pa) \lor (pa \land \neg ny) \land (\neg ab) \land (\neg ma)$ ," (ma), (ct), (me), (nh), (ri), (vt) ", 0.57 , 2302
+$(\neg ny) \land (\neg fl) \land (\neg id \land bc) \lor (id) \land (\neg nm \land \neg az)$ ," (az), (ks), (ne), (nm), (ok), (sd), (tx), (ab,ak,bc,ca,co,id,mt,nt,nv,or,ut,wa,wy,yt), (sk) ", 0.81 , 2470
+$(ny) \land (pa \land ny) \land (\neg nt) \land (in \land ky)$ ," (il), (in), (ky), (md), (nj), (oh), (va), (ab,ak,al,ar,az,bc,ca,co,ct,fl,fraspm,ga,hi,ia,id,ks,la,lb,ma,mb,me,mi,mn,mo,ms,mt,nb,nc,nd,ne,nf,nh,nm,ns,nv,ok,on,or,pe,pr,qc,ri,sc,sd,sk,tn,tx,ut,vi,vt,wa,wi,wy), (dc,de), (wv) ", 0.57 , 1939
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (az) \lor (\neg az \land co)$ ," (az,co,nv,ut,wy), (nm,tx) ", 0.97 , 3671
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (\neg az \land \neg co)$ ," (az), (co), (wy), (nm,tx), (nv), (ut) ", 0.99 , 12525
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (\neg or)$ ," (or), (wa) ", 0.99 , 14619
+$(\neg ny) \land (fl) \land (\neg ga \land \neg fl) \lor (ga) \land (\neg ga)$ ," (al,ar,az,bc,ca,co,ga,ks,la,mo,ms,nc,nm,nv,ok,or,sc,tx,ut,va,wa), (fl) ", 0.50 , 1975
+$(\neg ny) \land (fl) \land (\neg ga \land \neg fl) \lor (ga) \land (\neg tn)$ ," (tn), (ky) ", 0.55 , 3078
+$(\neg ny) \land (fl) \land (\neg ga \land \neg fl) \lor (ga) \land (\neg ne)$ ," (mt), (ne), (sd), (wy) ", 0.55 , 3515
+$(ny) \land (\neg pa) \lor (pa \land \neg ny) \land (\neg ab) \land (\neg pr \land \neg nv) \land (\neg ab)$ ," (ab), (ak), (vi), (fraspm,mb,nb,nf,ns,pe,pr) ", 0.57 , 2306
+$(ny) \land (\neg pa) \lor (pa \land \neg ny) \land (\neg ab) \land (\neg pr \land \neg nv) \land (\neg ca)$ ," (bc), (ca), (hi), (or), (wa) ", 0.57 , 2043
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (az) \lor (\neg az \land co) \land (\neg co)$ ," (az), (co), (wy), (nv,ut) ", 0.97 , 2625
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (az) \lor (\neg az \land co) \land (nm)$ ," (nm), (tx) ", 0.97 , 1784
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (az) \lor (\neg az \land co) \land (\neg nm)$ ," (nm), (tx) ", 0.97 , 1887
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (\neg az \land \neg co) \land (\neg tx)$ ," (tx), (nm) ", 0.99 , 11040
+$(ny) \land (\neg pa) \lor (pa \land \neg ny) \land (\neg ab) \land (\neg pr \land \neg nv) \land (\neg ab) \land (\neg pr)$ ," (fraspm), (mb), (nb), (nf), (ns), (pe), (pr) ", 0.57 , 2304
+$(\neg ny) \land (\neg fl) \land (\neg id \land \neg bc) \land (az) \lor (\neg az \land co) \land (\neg co) \land (\neg ut)$ ," (nv), (ut) ", 0.89 , 2100

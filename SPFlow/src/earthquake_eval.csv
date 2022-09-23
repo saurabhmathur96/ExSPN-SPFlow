@@ -1,0 +1,13 @@
+A,C,ACC
+(Alarm == 1),"('Earthquake', 'MaryCalls')",1.0
+(Alarm == 1),"('Earthquake', 'JohnCalls')",1.0
+(Alarm == 1),"('JohnCalls', 'MaryCalls')",1.0
+(Alarm == 1),"('Burglary', 'Earthquake')",0.0
+(Alarm == 1),"('Burglary', 'MaryCalls')",1.0
+(Alarm == 1),"('Burglary', 'JohnCalls')",1.0
+~(Alarm == 1),"('Earthquake', 'MaryCalls')",1.0
+~(Alarm == 1),"('Earthquake', 'JohnCalls')",1.0
+~(Alarm == 1),"('JohnCalls', 'MaryCalls')",1.0
+~(Alarm == 1),"('Burglary', 'Earthquake')",0.0
+~(Alarm == 1),"('Burglary', 'MaryCalls')",1.0
+~(Alarm == 1),"('Burglary', 'JohnCalls')",1.0

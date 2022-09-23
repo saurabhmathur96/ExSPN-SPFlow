@@ -1,0 +1,31 @@
+A,C,support
+(Xray & Dyspnoea & ~Smoker),"('Cancer', 'Pollution')",7054
+(Xray & ~Dyspnoea & ~Smoker),"('Cancer', 'Pollution')",3434
+(~Xray & Dyspnoea & ~Smoker),"('Cancer', 'Pollution')",4014
+(~Xray & ~Dyspnoea & ~Smoker),"('Cancer', 'Pollution')",5469
+(Cancer),"('Dyspnoea', 'Pollution')",37186
+(Cancer),"('Dyspnoea', 'Smoker')",37186
+(Cancer),"('Dyspnoea', 'Xray')",37186
+(~Cancer),"('Dyspnoea', 'Pollution')",12814
+(~Cancer),"('Dyspnoea', 'Smoker')",12814
+(~Cancer),"('Dyspnoea', 'Xray')",12814
+(Cancer & Smoker),"('Dyspnoea', 'Pollution')",25180
+(Cancer & Smoker),"('Pollution', 'Xray')",25180
+(Cancer & ~Smoker),"('Dyspnoea', 'Pollution')",12006
+(Cancer & ~Smoker),"('Pollution', 'Xray')",12006
+(~Cancer & Smoker),"('Dyspnoea', 'Pollution')",4849
+(~Cancer & Smoker),"('Pollution', 'Xray')",4849
+(~Cancer & ~Smoker),"('Dyspnoea', 'Pollution')",7965
+(~Cancer & ~Smoker),"('Pollution', 'Xray')",7965
+(Cancer & Pollution),"('Dyspnoea', 'Smoker')",21554
+(Cancer & Pollution),"('Smoker', 'Xray')",21554
+(Cancer & ~Pollution),"('Dyspnoea', 'Smoker')",15632
+(Cancer & ~Pollution),"('Smoker', 'Xray')",15632
+(~Cancer & Pollution),"('Dyspnoea', 'Smoker')",8434
+(~Cancer & Pollution),"('Smoker', 'Xray')",8434
+(~Cancer & ~Pollution),"('Dyspnoea', 'Smoker')",4380
+(~Cancer & ~Pollution),"('Smoker', 'Xray')",4380
+(Cancer),"('Pollution', 'Xray')",37186
+(Cancer),"('Smoker', 'Xray')",37186
+(~Cancer),"('Pollution', 'Xray')",12814
+(~Cancer),"('Smoker', 'Xray')",12814

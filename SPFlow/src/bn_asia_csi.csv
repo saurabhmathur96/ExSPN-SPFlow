@@ -1,0 +1,244 @@
+A,C,support
+(either & tub & lung),"('asia', 'bronc')",74664
+(either & tub & lung),"('asia', 'dysp')",74664
+(either & tub & lung),"('asia', 'smoke')",74664
+(either & tub & lung),"('asia', 'xray')",74664
+(either & tub & ~lung),"('asia', 'bronc')",0
+(either & tub & ~lung),"('asia', 'dysp')",0
+(either & tub & ~lung),"('asia', 'smoke')",0
+(either & tub & ~lung),"('asia', 'xray')",0
+(either & ~tub),"('asia', 'bronc')",0
+(either & ~tub),"('asia', 'dysp')",0
+(either & ~tub),"('asia', 'lung')",0
+(either & ~tub),"('asia', 'smoke')",0
+(either & ~tub),"('asia', 'xray')",0
+(~either & lung & tub),"('asia', 'bronc')",0
+(~either & lung & tub),"('asia', 'dysp')",0
+(~either & lung & tub),"('asia', 'smoke')",0
+(~either & lung & tub),"('asia', 'xray')",0
+(~either & lung & ~tub & dysp & bronc),"('asia', 'smoke')",138
+(~either & lung & ~tub & dysp & bronc),"('asia', 'xray')",138
+(~either & lung & ~tub & dysp & ~bronc),"('asia', 'smoke')",33
+(~either & lung & ~tub & dysp & ~bronc),"('asia', 'xray')",33
+(~either & lung & ~tub & ~dysp),"('asia', 'bronc')",623
+(~either & lung & ~tub & ~dysp),"('asia', 'smoke')",623
+(~either & lung & ~tub & ~dysp),"('asia', 'xray')",623
+(~either & ~lung & tub),"('asia', 'bronc')",4486
+(~either & ~lung & tub),"('asia', 'dysp')",4486
+(~either & ~lung & tub),"('asia', 'smoke')",4486
+(~either & ~lung & tub),"('asia', 'xray')",4486
+(~either & ~lung & ~tub & bronc & dysp & smoke),"('asia', 'xray')",2
+(~either & ~lung & ~tub & bronc & dysp & ~smoke),"('asia', 'xray')",4
+(~either & ~lung & ~tub & bronc & ~dysp),"('asia', 'smoke')",17
+(~either & ~lung & ~tub & bronc & ~dysp),"('asia', 'xray')",17
+(~either & ~lung & ~tub & ~bronc),"('asia', 'dysp')",33
+(~either & ~lung & ~tub & ~bronc),"('asia', 'smoke')",33
+(~either & ~lung & ~tub & ~bronc),"('asia', 'xray')",33
+(either & tub & lung & dysp & smoke),"('asia', 'bronc')",27130
+(either & tub & lung & dysp & smoke),"('bronc', 'xray')",27130
+(either & tub & lung & dysp & ~smoke),"('asia', 'bronc')",16875
+(either & tub & lung & dysp & ~smoke),"('bronc', 'xray')",16875
+(either & tub & lung & ~dysp & smoke),"('asia', 'bronc')",12205
+(either & tub & lung & ~dysp & smoke),"('bronc', 'xray')",12205
+(either & tub & lung & ~dysp & ~smoke),"('asia', 'bronc')",18454
+(either & tub & lung & ~dysp & ~smoke),"('bronc', 'xray')",18454
+(either & tub & ~lung),"('bronc', 'dysp')",0
+(either & tub & ~lung),"('bronc', 'smoke')",0
+(either & tub & ~lung),"('bronc', 'xray')",0
+(either & ~tub),"('bronc', 'dysp')",0
+(either & ~tub),"('bronc', 'lung')",0
+(either & ~tub),"('bronc', 'smoke')",0
+(either & ~tub),"('bronc', 'xray')",0
+(~either & lung & tub),"('bronc', 'dysp')",0
+(~either & lung & tub),"('bronc', 'smoke')",0
+(~either & lung & tub),"('bronc', 'xray')",0
+(~either & lung & ~tub & dysp & smoke),"('asia', 'bronc')",105
+(~either & lung & ~tub & dysp & smoke),"('bronc', 'xray')",105
+(~either & lung & ~tub & dysp & ~smoke),"('asia', 'bronc')",66
+(~either & lung & ~tub & dysp & ~smoke),"('bronc', 'xray')",66
+(~either & lung & ~tub & ~dysp & smoke),"('asia', 'bronc')",320
+(~either & lung & ~tub & ~dysp & smoke),"('bronc', 'xray')",320
+(~either & lung & ~tub & ~dysp & ~smoke),"('asia', 'bronc')",303
+(~either & lung & ~tub & ~dysp & ~smoke),"('bronc', 'xray')",303
+(~either & ~lung & dysp & smoke & tub),"('asia', 'bronc')",110
+(~either & ~lung & dysp & smoke & tub),"('bronc', 'xray')",110
+(~either & ~lung & dysp & smoke & ~tub),"('asia', 'bronc')",2
+(~either & ~lung & dysp & smoke & ~tub),"('bronc', 'xray')",2
+(~either & ~lung & dysp & ~smoke),"('asia', 'bronc')",743
+(~either & ~lung & dysp & ~smoke),"('bronc', 'tub')",743
+(~either & ~lung & dysp & ~smoke),"('bronc', 'xray')",743
+(~either & ~lung & ~dysp & smoke),"('asia', 'bronc')",341
+(~either & ~lung & ~dysp & smoke),"('bronc', 'tub')",341
+(~either & ~lung & ~dysp & smoke),"('bronc', 'xray')",341
+(~either & ~lung & ~dysp & ~smoke),"('asia', 'bronc')",3346
+(~either & ~lung & ~dysp & ~smoke),"('bronc', 'tub')",3346
+(~either & ~lung & ~dysp & ~smoke),"('bronc', 'xray')",3346
+(bronc & lung & either & tub),"('asia', 'dysp')",41478
+(bronc & lung & either & tub),"('dysp', 'smoke')",41478
+(bronc & lung & either & tub),"('dysp', 'xray')",41478
+(bronc & lung & either & ~tub),"('asia', 'dysp')",0
+(bronc & lung & either & ~tub),"('dysp', 'smoke')",0
+(bronc & lung & either & ~tub),"('dysp', 'xray')",0
+(bronc & lung & ~either & tub),"('asia', 'dysp')",0
+(bronc & lung & ~either & tub),"('dysp', 'smoke')",0
+(bronc & lung & ~either & tub),"('dysp', 'xray')",0
+(bronc & lung & ~either & ~tub),"('asia', 'dysp')",456
+(bronc & lung & ~either & ~tub),"('dysp', 'smoke')",456
+(bronc & lung & ~either & ~tub),"('dysp', 'xray')",456
+(bronc & ~lung & either),"('asia', 'dysp')",0
+(bronc & ~lung & either),"('dysp', 'smoke')",0
+(bronc & ~lung & either),"('dysp', 'tub')",0
+(bronc & ~lung & either),"('dysp', 'xray')",0
+(bronc & ~lung & ~either),"('asia', 'dysp')",1954
+(bronc & ~lung & ~either),"('dysp', 'smoke')",1954
+(bronc & ~lung & ~either),"('dysp', 'tub')",1954
+(bronc & ~lung & ~either),"('dysp', 'xray')",1954
+(~bronc & lung & tub & either),"('asia', 'dysp')",33186
+(~bronc & lung & tub & either),"('dysp', 'smoke')",33186
+(~bronc & lung & tub & either),"('dysp', 'xray')",33186
+(~bronc & lung & tub & ~either),"('asia', 'dysp')",0
+(~bronc & lung & tub & ~either),"('dysp', 'smoke')",0
+(~bronc & lung & tub & ~either),"('dysp', 'xray')",0
+(~bronc & lung & ~tub & either),"('asia', 'dysp')",0
+(~bronc & lung & ~tub & either),"('dysp', 'smoke')",0
+(~bronc & lung & ~tub & either),"('dysp', 'xray')",0
+(~bronc & lung & ~tub & ~either),"('asia', 'dysp')",338
+(~bronc & lung & ~tub & ~either),"('dysp', 'smoke')",338
+(~bronc & lung & ~tub & ~either),"('dysp', 'xray')",338
+(~bronc & ~lung & either),"('asia', 'dysp')",0
+(~bronc & ~lung & either),"('dysp', 'smoke')",0
+(~bronc & ~lung & either),"('dysp', 'tub')",0
+(~bronc & ~lung & either),"('dysp', 'xray')",0
+(~bronc & ~lung & ~either),"('asia', 'dysp')",2588
+(~bronc & ~lung & ~either),"('dysp', 'smoke')",2588
+(~bronc & ~lung & ~either),"('dysp', 'tub')",2588
+(~bronc & ~lung & ~either),"('dysp', 'xray')",2588
+(tub & lung),"('asia', 'either')",74664
+(tub & lung),"('bronc', 'either')",74664
+(tub & lung),"('dysp', 'either')",74664
+(tub & lung),"('either', 'smoke')",74664
+(tub & lung),"('either', 'xray')",74664
+(tub & ~lung),"('asia', 'either')",4486
+(tub & ~lung),"('bronc', 'either')",4486
+(tub & ~lung),"('dysp', 'either')",4486
+(tub & ~lung),"('either', 'smoke')",4486
+(tub & ~lung),"('either', 'xray')",4486
+(~tub),"('asia', 'either')",850
+(~tub),"('bronc', 'either')",850
+(~tub),"('dysp', 'either')",850
+(~tub),"('either', 'lung')",850
+(~tub),"('either', 'smoke')",850
+(~tub),"('either', 'xray')",850
+(tub & either),"('asia', 'lung')",74664
+(tub & either),"('bronc', 'lung')",74664
+(tub & either),"('dysp', 'lung')",74664
+(tub & either),"('lung', 'smoke')",74664
+(tub & either),"('lung', 'xray')",74664
+(tub & ~either),"('asia', 'lung')",4486
+(tub & ~either),"('bronc', 'lung')",4486
+(tub & ~either),"('dysp', 'lung')",4486
+(tub & ~either),"('lung', 'smoke')",4486
+(tub & ~either),"('lung', 'xray')",4486
+(~tub & either),"('asia', 'lung')",0
+(~tub & either),"('bronc', 'lung')",0
+(~tub & either),"('dysp', 'lung')",0
+(~tub & either),"('lung', 'smoke')",0
+(~tub & either),"('lung', 'xray')",0
+(~tub & ~either & smoke & asia),"('bronc', 'lung')",422
+(~tub & ~either & smoke & asia),"('dysp', 'lung')",422
+(~tub & ~either & smoke & asia),"('lung', 'xray')",422
+(~tub & ~either & smoke & ~asia),"('bronc', 'lung')",11
+(~tub & ~either & smoke & ~asia),"('dysp', 'lung')",11
+(~tub & ~either & smoke & ~asia),"('lung', 'xray')",11
+(~tub & ~either & ~smoke),"('asia', 'lung')",417
+(~tub & ~either & ~smoke),"('bronc', 'lung')",417
+(~tub & ~either & ~smoke),"('dysp', 'lung')",417
+(~tub & ~either & ~smoke),"('lung', 'xray')",417
+(lung & bronc & tub & either),"('asia', 'smoke')",41478
+(lung & bronc & tub & either),"('dysp', 'smoke')",41478
+(lung & bronc & tub & either),"('smoke', 'xray')",41478
+(lung & bronc & tub & ~either),"('asia', 'smoke')",0
+(lung & bronc & tub & ~either),"('dysp', 'smoke')",0
+(lung & bronc & tub & ~either),"('smoke', 'xray')",0
+(lung & bronc & ~tub & either),"('asia', 'smoke')",0
+(lung & bronc & ~tub & either),"('dysp', 'smoke')",0
+(lung & bronc & ~tub & either),"('smoke', 'xray')",0
+(lung & bronc & ~tub & ~either),"('asia', 'smoke')",456
+(lung & bronc & ~tub & ~either),"('dysp', 'smoke')",456
+(lung & bronc & ~tub & ~either),"('smoke', 'xray')",456
+(lung & ~bronc & ~xray & either & tub),"('asia', 'smoke')",1651
+(lung & ~bronc & ~xray & either & tub),"('dysp', 'smoke')",1651
+(lung & ~bronc & ~xray & either & ~tub),"('asia', 'smoke')",0
+(lung & ~bronc & ~xray & either & ~tub),"('dysp', 'smoke')",0
+(lung & ~bronc & ~xray & ~either & tub),"('asia', 'smoke')",0
+(lung & ~bronc & ~xray & ~either & tub),"('dysp', 'smoke')",0
+(lung & ~bronc & ~xray & ~either & ~tub),"('asia', 'smoke')",335
+(lung & ~bronc & ~xray & ~either & ~tub),"('dysp', 'smoke')",335
+(~lung & either),"('asia', 'smoke')",0
+(~lung & either),"('bronc', 'smoke')",0
+(~lung & either),"('dysp', 'smoke')",0
+(~lung & either),"('smoke', 'tub')",0
+(~lung & either),"('smoke', 'xray')",0
+(~lung & ~either & bronc),"('asia', 'smoke')",1954
+(~lung & ~either & bronc),"('dysp', 'smoke')",1954
+(~lung & ~either & bronc),"('smoke', 'tub')",1954
+(~lung & ~either & bronc),"('smoke', 'xray')",1954
+(~lung & ~either & ~bronc),"('asia', 'smoke')",2588
+(~lung & ~either & ~bronc),"('dysp', 'smoke')",2588
+(~lung & ~either & ~bronc),"('smoke', 'tub')",2588
+(~lung & ~either & ~bronc),"('smoke', 'xray')",2588
+(either & lung),"('asia', 'tub')",74664
+(either & lung),"('bronc', 'tub')",74664
+(either & lung),"('dysp', 'tub')",74664
+(either & lung),"('smoke', 'tub')",74664
+(either & lung),"('tub', 'xray')",74664
+(either & ~lung),"('asia', 'tub')",0
+(either & ~lung),"('bronc', 'tub')",0
+(either & ~lung),"('dysp', 'tub')",0
+(either & ~lung),"('smoke', 'tub')",0
+(either & ~lung),"('tub', 'xray')",0
+(~either & lung),"('asia', 'tub')",794
+(~either & lung),"('bronc', 'tub')",794
+(~either & lung),"('dysp', 'tub')",794
+(~either & lung),"('smoke', 'tub')",794
+(~either & lung),"('tub', 'xray')",794
+(~either & ~lung & asia & xray),"('bronc', 'tub')",93
+(~either & ~lung & asia & xray),"('dysp', 'tub')",93
+(~either & ~lung & asia & xray),"('smoke', 'tub')",93
+(~either & ~lung & asia & ~xray),"('bronc', 'tub')",4403
+(~either & ~lung & asia & ~xray),"('dysp', 'tub')",4403
+(~either & ~lung & asia & ~xray),"('smoke', 'tub')",4403
+(~either & ~lung & ~asia & xray & smoke),"('bronc', 'tub')",0
+(~either & ~lung & ~asia & xray & smoke),"('dysp', 'tub')",0
+(~either & ~lung & ~asia & xray & ~smoke),"('bronc', 'tub')",2
+(~either & ~lung & ~asia & xray & ~smoke),"('dysp', 'tub')",2
+(~either & ~lung & ~asia & ~xray),"('bronc', 'tub')",44
+(~either & ~lung & ~asia & ~xray),"('dysp', 'tub')",44
+(~either & ~lung & ~asia & ~xray),"('smoke', 'tub')",44
+(lung & either & tub & smoke & dysp & ~asia),"('bronc', 'xray')",260
+(lung & either & tub & smoke & ~dysp),"('asia', 'xray')",12205
+(lung & either & tub & smoke & ~dysp),"('bronc', 'xray')",12205
+(lung & either & tub & ~smoke),"('asia', 'xray')",35329
+(lung & either & tub & ~smoke),"('bronc', 'xray')",35329
+(lung & either & tub & ~smoke),"('dysp', 'xray')",35329
+(lung & either & ~tub),"('asia', 'xray')",0
+(lung & either & ~tub),"('bronc', 'xray')",0
+(lung & either & ~tub),"('dysp', 'xray')",0
+(lung & either & ~tub),"('smoke', 'xray')",0
+(lung & ~either & tub),"('asia', 'xray')",0
+(lung & ~either & tub),"('bronc', 'xray')",0
+(lung & ~either & tub),"('dysp', 'xray')",0
+(lung & ~either & tub),"('smoke', 'xray')",0
+(lung & ~either & ~tub),"('asia', 'xray')",794
+(lung & ~either & ~tub),"('bronc', 'xray')",794
+(lung & ~either & ~tub),"('dysp', 'xray')",794
+(lung & ~either & ~tub),"('smoke', 'xray')",794
+(~lung & either),"('asia', 'xray')",0
+(~lung & either),"('bronc', 'xray')",0
+(~lung & either),"('dysp', 'xray')",0
+(~lung & either),"('tub', 'xray')",0
+(~lung & ~either),"('asia', 'xray')",4542
+(~lung & ~either),"('bronc', 'xray')",4542
+(~lung & ~either),"('dysp', 'xray')",4542
+(~lung & ~either),"('smoke', 'xray')",4542
+(~lung & ~either),"('tub', 'xray')",4542

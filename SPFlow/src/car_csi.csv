@@ -1,0 +1,16 @@
+Antecedent,Consequent,Score,Support
+$((buying \neq high) \land (buying \neq vhigh))$ ," (buying), (maint, persons, safety, class), (doors), (lug_boot) ", 1.00 , 864
+$(((buying \neq high) \land (buying = vhigh)) \lor ((buying = high)))$ ," (buying), (maint, persons, safety, class), (doors), (lug_boot) ", 1.00 , 864
+$((buying \neq high) \land (buying \neq vhigh)) \land (((maint \neq vhigh) \land (maint = high)) \lor ((maint = vhigh)))$ ," (maint), (persons, safety, class) ", 1.00 , 419
+$(((buying \neq high) \land (buying = vhigh)) \lor ((buying = high))) \land ((class = unacc))$ ," (class), (maint), (persons), (safety) ", 1.00 , 684
+$(((buying \neq high) \land (buying = vhigh)) \lor ((buying = high))) \land ((class \neq unacc))$ ," (class), (maint), (persons), (safety) ", 1.00 , 180
+$((buying \neq high) \land (buying \neq vhigh)) \land ((maint \neq vhigh) \land (maint \neq high)) \land ((class = unacc))$ ," (class), (maint), (persons, safety) ", 0.97 , 248
+$((buying \neq high) \land (buying \neq vhigh)) \land ((maint \neq vhigh) \land (maint \neq high)) \land ((class \neq unacc))$ ," (maint, safety, class), (persons) ", 0.97 , 197
+$((buying \neq high) \land (buying \neq vhigh)) \land (((maint \neq vhigh) \land (maint = high)) \lor ((maint = vhigh))) \land ((class \neq acc))$ ," (class), (persons, safety) ", 1.00 , 278
+$((buying \neq high) \land (buying \neq vhigh)) \land (((maint \neq vhigh) \land (maint = high)) \lor ((maint = vhigh))) \land ((class = acc))$ ," (class), (persons), (safety) ", 1.00 , 141
+$((buying \neq high) \land (buying \neq vhigh)) \land ((maint \neq vhigh) \land (maint \neq high)) \land ((class = unacc)) \land ((safety \neq low))$ ," (persons), (safety) ", 0.97 , 104
+$((buying \neq high) \land (buying \neq vhigh)) \land ((maint \neq vhigh) \land (maint \neq high)) \land ((class = unacc)) \land ((safety = low))$ ," (safety), (persons) ", 0.97 , 144
+$((buying \neq high) \land (buying \neq vhigh)) \land ((maint \neq vhigh) \land (maint \neq high)) \land ((class \neq unacc)) \land ((safety \neq high))$ ," (safety), (maint), (class) ", 0.97 , 92
+$((buying \neq high) \land (buying \neq vhigh)) \land ((maint \neq vhigh) \land (maint \neq high)) \land ((class \neq unacc)) \land ((safety = high))$ ," (safety), (maint, class) ", 0.97 , 105
+$((buying \neq high) \land (buying \neq vhigh)) \land (((maint \neq vhigh) \land (maint = high)) \lor ((maint = vhigh))) \land ((class \neq acc)) \land ((persons = 2))$ ," (persons), (safety) ", 1.00 , 144
+$((buying \neq high) \land (buying \neq vhigh)) \land (((maint \neq vhigh) \land (maint = high)) \lor ((maint = vhigh))) \land ((class \neq acc)) \land ((persons \neq 2))$ ," (persons), (safety) ", 1.00 , 134

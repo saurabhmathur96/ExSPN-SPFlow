@@ -1,0 +1,13 @@
+Antecedent,Consequent,Score,Support
+$((pox \leq 0.2500) \land (erl \leq 0.7500))$ ," (erl), (pox), (mcg, gvh, alm, mit, vac, nuc, class_protein_localization) ", 1.00 , 1455
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm \leq 0.4550))$ ," (mcg, gvh, alm, mit, vac, class_protein_localization), (nuc) ", 0.77 , 343
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550))$ ," (mcg, gvh), (alm, mit, vac, nuc, class_protein_localization) ", 0.91 , 1112
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm \leq 0.4550)) \land ((class_protein_localization = ME3))$ ," (mcg, gvh, alm, vac, class_protein_localization), (mit) ", 0.56 , 208
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550)) \land ((class_protein_localization \neq CYT))$ ," (alm, mit, nuc, class_protein_localization), (vac) ", 0.90 , 663
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550)) \land ((class_protein_localization = CYT))$ ," (class_protein_localization), (alm, mit, vac, nuc) ", 0.91 , 449
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550)) \land ((class_protein_localization \neq CYT)) \land ((class_protein_localization = NUC))$ ," (alm), (mit), (nuc, class_protein_localization) ", 0.88 , 430
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550)) \land ((class_protein_localization = CYT)) \land ((nuc \leq 0.2250) \land (nuc > 0.2150))$ ," (alm), (mit), (vac), (nuc) ", 0.91 , 239
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm \leq 0.4550)) \land ((class_protein_localization = ME3)) \land ((class_protein_localization \neq ME2)) \land ((class_protein_localization = ME3))$ ," (class_protein_localization), (mcg, gvh, alm, vac) ", 0.56 , 151
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550)) \land ((class_protein_localization \neq CYT)) \land ((class_protein_localization \neq NUC)) \land ((nuc \leq 0.3950))$ ," (class_protein_localization), (alm, mit, nuc) ", 0.88 , 216
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550)) \land ((class_protein_localization \neq CYT)) \land ((class_protein_localization = NUC)) \land ((class_protein_localization = NUC))$ ," (class_protein_localization), (nuc) ", 0.88 , 421
+$((pox \leq 0.2500) \land (erl \leq 0.7500)) \land ((alm > 0.4550)) \land ((class_protein_localization \neq CYT)) \land ((class_protein_localization \neq NUC)) \land ((nuc \leq 0.3950)) \land ((nuc \leq 0.2350))$ ," (alm, mit), (nuc) ", 0.88 , 150

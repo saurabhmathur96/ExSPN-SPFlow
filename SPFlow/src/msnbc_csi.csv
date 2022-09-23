@@ -1,0 +1,7 @@
+Antecedent,Consequent,Score,Support
+$(\neg travel)$ ," (bbs), (travel), (frontpage), (news), (tech), (local), (opinion), (on-air), (misc), (weather), (msn-news), (health), (living), (business), (msn-sports), (sports), (summary) ", 1.00 , 31088
+$(travel)$ ," (frontpage), (news), (tech), (local), (opinion,on-air,misc,weather,summary,bbs,travel), (msn-news,msn-sports), (health), (living), (business), (sports) ", 0.84 , 4922
+$(travel) \land (misc)$ ," (opinion,on-air,weather,summary,bbs,travel), (misc) ", 0.83 , 1876
+$(travel) \land (\neg misc)$ ," (misc), (opinion), (on-air), (weather), (summary), (bbs,travel) ", 0.84 , 3046
+$(travel) \land (\neg msn-news)$ ," (msn-news), (msn-sports) ", 0.84 , 4439
+$(travel) \land (\neg misc) \land (\neg bbs)$ ," (bbs), (travel) ", 0.84 , 2801
